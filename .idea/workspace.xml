@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664e80ca-c3a4-47b0-ade3-fe18a8a4fe12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesac-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/InputOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/Prac01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/ConditionalStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/LoopControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/MethodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac02.java" afterDir="false" />
+    <list default="true" id="664e80ca-c3a4-47b0-ade3-fe18a8a4fe12" name="Changes" comment="study: java basic">
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/Array01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/ArrayEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/ArrayListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/Prac01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/Prac02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +32,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,6 +46,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array01.executor": "Run",
+    "Application.ArrayEx.executor": "Run",
+    "Application.ArrayListEx.executor": "Run",
     "Application.Casting.executor": "Run",
     "Application.ConditionalStatement.executor": "Run",
     "Application.InputOutput.executor": "Run",
@@ -61,11 +60,13 @@
     "Application.Prac01.executor": "Run",
     "Application.Prac02.executor": "Run",
     "Application.Prac03.executor": "Run",
+    "Application.Prac04.executor": "Run",
+    "Application.Prac05.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -84,6 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1705380763661</updated>
     </task>
+    <task id="LOCAL-00001" summary="study: java basic">
+      <option name="closed" value="true" />
+      <created>1705399236536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705399236536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="study: java basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="study: java basic" />
   </component>
 </project>
