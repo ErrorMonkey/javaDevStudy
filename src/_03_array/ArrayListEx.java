@@ -26,101 +26,101 @@ import java.util.Arrays;
 // 동일한 주소값이 저장되었다는 의미, null 도 가능
 public class ArrayListEx {
 
-  public static void main(String[] args) {
-    // 1. ArrayList 생성 (정수형)
-    ArrayList<Integer> numbers = new ArrayList<>();
+    public static void main(String[] args) {
+        // 1. ArrayList 생성 (정수형)
+        ArrayList<Integer> numbers = new ArrayList<>();
 
-    // 2. 요소 추가
-    numbers.add(10);
-    numbers.add(20);
-    numbers.add(30);
-    numbers.add(40);
-    numbers.add(50);
+        // 2. 요소 추가
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        numbers.add(50);
 
-    // 3. 요소 접근
-    System.out.println("첫 번째 요소: " + numbers.get(0)); // 10
+        // 3. 요소 접근
+        System.out.println("첫 번째 요소: " + numbers.get(0)); // 10
 
-    // 4. 요소 수정
-    numbers.set(1, 77);
-    System.out.println("numbers: " + numbers); // [10, 77, 30, 40, 50]
+        // 4. 요소 수정
+        numbers.set(1, 77);
+        System.out.println("numbers: " + numbers); // [10, 77, 30, 40, 50]
 
-    // 5. 요소 삽입 (지정된 위치)
-    numbers.add(1, 7);
-    System.out.println("numbers: " + numbers);
+        // 5. 요소 삽입 (지정된 위치)
+        numbers.add(1, 7);
+        System.out.println("numbers: " + numbers);
 
-    // 6. ArrayList 끼리 연결
-    System.out.println(Arrays.asList(99, 33, 55)); // [99, 33, 55]
-    numbers.addAll(Arrays.asList(99, 33, 55));
-    System.out.println("numbers: " + numbers); // [10, 7, 77, 30, 40, 50, 99, 33, 55]
+        // 6. ArrayList 끼리 연결
+        System.out.println(Arrays.asList(99, 33, 55)); // [99, 33, 55]
+        numbers.addAll(Arrays.asList(99, 33, 55));
+        System.out.println("numbers: " + numbers); // [10, 7, 77, 30, 40, 50, 99, 33, 55]
 
-    // 7. 요소 위치 찾기
-    System.out.println(numbers.indexOf(10));
-    System.out.println(numbers.indexOf(30));
-    System.out.println(numbers.indexOf(99));
+        // 7. 요소 위치 찾기
+        System.out.println(numbers.indexOf(10));
+        System.out.println(numbers.indexOf(30));
+        System.out.println(numbers.indexOf(99));
 
-    // 8. 요소 삭제
-    numbers.remove(2);
-    System.out.println("numbers: " + numbers); // [10, 7, 30, 40, 50, 99, 33, 55]
+        // 8. 요소 삭제
+        numbers.remove(2);
+        System.out.println("numbers: " + numbers); // [10, 7, 30, 40, 50, 99, 33, 55]
 
-    // 9. 리스트 크기
-    System.out.println("리스트 크기: " + numbers.size()); // 8
+        // 9. 리스트 크기
+        System.out.println("리스트 크기: " + numbers.size()); // 8
 
-    // 10. 모든 요소 출력
-    for (Integer n : numbers) {
-      System.out.print(n + " ");
+        // 10. 모든 요소 출력
+        for (Integer n : numbers) {
+            System.out.print(n + " ");
+        }
+        for (int n : numbers) {
+            System.out.print(n + " ");
+        }
+
+        // 11. 모든 요소 삭제
+        numbers.clear();
+        System.out.println("numbers: " + numbers); // []
+
+        /////////////////////////////
+        // Student 타입의 ArrayList 생성
+        ArrayList<Student> students = new ArrayList<>();
+
+        students.add(new Student("jhon", 10));
+        Student std1 = new Student("jennie", 14);
+        students.add(std1);
+        students.add(new Student("Rose", 18));
+        students.add(new Student("Lily", 13));
+        students.add(new Student("Lisa", 21));
+
+        System.out.println("students: " + students);
+        System.out.println("학생 수: " + students.size());
+
+        Student std = students.get(0); // 0번 학생 확인
+        System.out.println(
+                std.getName() + " 학생의 나이는 " + std.getAge() + "세 입니다!"
+        );
+
+        // 반복문 이용
+        System.out.println("=== 학생 명단 ===");
+        for (Student student : students) {
+            System.out.println(student.getName() + "(" + student.getAge() + ")");
+        }
+
+        System.out.println(Arrays.toString(students.toArray()));
     }
-    for (int n : numbers) {
-      System.out.print(n + " ");
-    }
-
-    // 11. 모든 요소 삭제
-    numbers.clear();
-    System.out.println("numbers: " + numbers); // []
-
-    /////////////////////////////
-    // Student 타입의 ArrayList 생성
-    ArrayList<Student> students = new ArrayList<>();
-
-    students.add(new Student("jhon", 10));
-    Student std1 = new Student("jennie", 14);
-    students.add(std1);
-    students.add(new Student("Rose", 18));
-    students.add(new Student("Lily", 13));
-    students.add(new Student("Lisa", 21));
-
-    System.out.println("students: " + students);
-    System.out.println("학생 수: " + students.size());
-
-    Student std = students.get(0); // 0번 학생 확인
-    System.out.println(
-      std.getName() + " 학생의 나이는 " + std.getAge() + "세 입니다!"
-    );
-
-    // 반복문 이용
-    System.out.println("=== 학생 명단 ===");
-    for (Student student : students) {
-      System.out.println(student.getName() + "(" + student.getAge() + ")");
-    }
-
-    System.out.println(Arrays.toString(students.toArray()));
-  }
 }
 
 class Student {
 
-  private String name;
-  private int age;
+    private String name;
+    private int age;
 
-  public Student(String name, int age) {
-    this.name = name;
-    this.age = age;
-  }
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
-  public String getName() {
-    return name;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public int getAge() {
-    return age;
-  }
+    public int getAge() {
+        return age;
+    }
 }
