@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Rectangle02 {
+    private static int count = 0;
     private int width;
     private int height;
     public void setWidth(int w) {
@@ -16,15 +17,19 @@ public class Rectangle02 {
         return this.width;
     }
     public int getHeight() {
-        return height;
+        return this.height;
     }
     public int getRectArea() {
         return width * height;
+    }
+    public static int getCount() {
+        return count;
     }
 
     public Rectangle02(int w, int h) {
         setWidth(w);
         setHeight(h);
+        count++;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -45,7 +50,8 @@ public class Rectangle02 {
             System.out.println("넓이는: " + rect.getRectArea());
             System.out.println("=============================");
         }
+        System.out.println("Rectangle 인스턴스의 개수는: " + Rectangle02.getCount());
+        sc.close();
     }
-
 
 }

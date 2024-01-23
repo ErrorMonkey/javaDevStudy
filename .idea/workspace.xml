@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664e80ca-c3a4-47b0-ade3-fe18a8a4fe12" name="Changes" comment="study: java basic">
-      <change afterPath="$PROJECT_DIR$/src/_04_exeption/ExceptionEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_exeption/Prac01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_01_class/ClassName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_01_class/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_01_class/Prac01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_01_class/Rectangle01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_01_class/Rectangle02.java" afterDir="false" />
+    <list default="true" id="664e80ca-c3a4-47b0-ade3-fe18a8a4fe12" name="Changes" comment="study: java class">
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_02_static_/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_02_static_/CalculatorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_02_static_/Prac01_Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/ConstEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/FinalVariableEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/Prac01_Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/StudentEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_02_control_statement/Prac03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_03_array/ArrayListEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_array/ArrayListEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/_01_class/Rectangle02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_01_class/Rectangle02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +70,12 @@
     "Application.Array01.executor": "Run",
     "Application.ArrayEx.executor": "Run",
     "Application.ArrayListEx.executor": "Run",
+    "Application.CalculatorEx.executor": "Run",
     "Application.Casting.executor": "Run",
     "Application.ClassName.executor": "Run",
     "Application.ConditionalStatement.executor": "Run",
     "Application.ExceptionEx.executor": "Run",
+    "Application.FinalVariableEx.executor": "Run",
     "Application.InputOutput.executor": "Run",
     "Application.LoopControl.executor": "Run",
     "Application.Main.executor": "Run",
@@ -77,6 +84,8 @@
     "Application.Operator.executor": "Run",
     "Application.Prac01.executor": "Run",
     "Application.Prac01Rectangle.executor": "Run",
+    "Application.Prac01_Circle.executor": "Debug",
+    "Application.Prac01_Student.executor": "Run",
     "Application.Prac02.executor": "Run",
     "Application.Prac03.executor": "Run",
     "Application.Prac04.executor": "Run",
@@ -84,6 +93,8 @@
     "Application.Rectangle.executor": "Run",
     "Application.Rectangle01.executor": "Run",
     "Application.Rectangle02.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.StudentEx.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -128,11 +139,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705585812581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="study: java class">
+      <option name="closed" value="true" />
+      <created>1705752845327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705752845327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study: java basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="study: java basic" />
+    <MESSAGE value="study: java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="study: java class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_05_class/_02_static_/Prac01_Student.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
