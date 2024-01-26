@@ -25,7 +25,6 @@ public class Student extends Person {
         // 부모로부터 상속 받은 필드
         this.setName(name);
         this.setAge(age);
-
     }
 
     public void setCampus(String campus) {

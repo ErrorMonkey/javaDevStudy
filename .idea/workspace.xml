@@ -5,21 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="664e80ca-c3a4-47b0-ade3-fe18a8a4fe12" name="Changes" comment="study: java class">
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_02_static_/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_02_static_/CalculatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_02_static_/Prac01_Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/ConstEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/FinalVariableEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/Prac01_Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_03_final/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/StudentEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac02_Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Prac01_Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/ShapeEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Prac01_Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Prac02_Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/RemoteControlEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_07_wrapper/BoxingUnboxing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_07_wrapper/ValueCompareEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/GenericEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/GenericEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/Prac01_Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/Prac02_Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05_class/_01_class/Rectangle02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_01_class/Rectangle02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/StudentEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/StudentEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +84,7 @@
     "Application.ConditionalStatement.executor": "Run",
     "Application.ExceptionEx.executor": "Run",
     "Application.FinalVariableEx.executor": "Run",
+    "Application.GenericEx.executor": "Run",
     "Application.InputOutput.executor": "Run",
     "Application.LoopControl.executor": "Run",
     "Application.Main.executor": "Run",
@@ -84,17 +93,25 @@
     "Application.Operator.executor": "Run",
     "Application.Prac01.executor": "Run",
     "Application.Prac01Rectangle.executor": "Run",
+    "Application.Prac01_Cat.executor": "Run",
     "Application.Prac01_Circle.executor": "Debug",
+    "Application.Prac01_Generic.executor": "Run",
+    "Application.Prac01_Music.executor": "Run",
     "Application.Prac01_Student.executor": "Run",
     "Application.Prac02.executor": "Run",
+    "Application.Prac02_Calculator.executor": "Run",
+    "Application.Prac02_Vehicle.executor": "Run",
     "Application.Prac03.executor": "Run",
     "Application.Prac04.executor": "Run",
     "Application.Prac05.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.Rectangle01.executor": "Run",
     "Application.Rectangle02.executor": "Run",
+    "Application.RemoteControlEx.executor": "Run",
+    "Application.ShapeEx.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentEx.executor": "Run",
+    "Application.ValueCompareEx.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -147,8 +164,27 @@
       <option name="project" value="LOCAL" />
       <updated>1705752845327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="study: java class">
+      <option name="closed" value="true" />
+      <created>1706002227116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706002227116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study: java basic" />

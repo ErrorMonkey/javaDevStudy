@@ -1,7 +1,6 @@
 package _05_class._04_inheritance;
 
 public class StudentEx {
-
     public static void main(String[] args) {
         Student std1 = new Student("김새싹", 20);
 
@@ -36,7 +35,6 @@ public class StudentEx {
         // Student 로부터 상속 받은
         std1.setCampus("새싹 용산");
         System.out.println(std1.getCampus());
-
 
 
     }
