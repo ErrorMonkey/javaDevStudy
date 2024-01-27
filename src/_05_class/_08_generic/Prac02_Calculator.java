@@ -17,7 +17,8 @@ class Calculator<T extends Number> {
         this.num2 = num2;
     }
     public Double add() {
-        double result = this.num1.doubleValue() + this.num2.doubleValue();
-        return result;
+        // return Double result = this.num1.doubleValue() + this.num2.doubleValue();
+        // Double wrapper 로 알아서 감싸서 반환하는 건가?
+        return this.num1.doubleValue() + this.num2.doubleValue();
     }
 }

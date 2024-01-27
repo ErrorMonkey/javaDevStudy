@@ -5,29 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="664e80ca-c3a4-47b0-ade3-fe18a8a4fe12" name="Changes" comment="study: java class">
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac02_Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Prac01_Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/ShapeEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_05_abstract/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Prac01_Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Prac02_Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/RemoteControlEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_06_interface/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_07_wrapper/BoxingUnboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_07_wrapper/ValueCompareEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/GenericEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/GenericEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/Prac01_Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/Prac02_Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/Prac01_Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/Prac02_Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/_list/ArrayListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/_list/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/_list/LinkedListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/_map/HashMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/_set/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/_09_Collection/_set/HashSetEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Prac01_Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05_class/_04_inheritance/StudentEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_04_inheritance/StudentEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/_08_generic/Prac02_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/_08_generic/Prac02_Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +72,11 @@
     "Application.ExceptionEx.executor": "Run",
     "Application.FinalVariableEx.executor": "Run",
     "Application.GenericEx.executor": "Run",
+    "Application.GenericEx2.executor": "Run",
+    "Application.HashMapEx.executor": "Run",
+    "Application.HashSetEx.executor": "Run",
     "Application.InputOutput.executor": "Run",
+    "Application.LinkedListEx.executor": "Run",
     "Application.LoopControl.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Method.executor": "Run",
@@ -98,9 +89,12 @@
     "Application.Prac01_Generic.executor": "Run",
     "Application.Prac01_Music.executor": "Run",
     "Application.Prac01_Student.executor": "Run",
+    "Application.Prac01_collection.executor": "Run",
     "Application.Prac02.executor": "Run",
     "Application.Prac02_Calculator.executor": "Run",
+    "Application.Prac02_Collection.executor": "Run",
     "Application.Prac02_Vehicle.executor": "Run",
+    "Application.Prac02_collection.executor": "Run",
     "Application.Prac03.executor": "Run",
     "Application.Prac04.executor": "Run",
     "Application.Prac05.executor": "Run",
@@ -116,11 +110,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_05_class._09_collection" />
       <recent name="_05_class._01_class" />
     </key>
   </component>
@@ -172,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706002227116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="study: java class">
+      <option name="closed" value="true" />
+      <created>1706254784777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706254784777</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
